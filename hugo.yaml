@@ -1,0 +1,190 @@
+# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
+# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "http://localhost:1313/"
+title: Blog Ambisec
+defaultContentLanguage: pt
+defaultContentLanguageInSubdir: false 
+
+pagination:
+  disableAliases: False
+  pagerSize: 10
+  path: page
+
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+menus:
+  main:
+  - name: artigos
+    pageRef: /archives/
+    weight: 10
+  - name: tags
+    pageRef: /tags/
+    weight: 20
+  - name: busca
+    pageRef: /search/
+    weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  label:
+    text: " "
+    icon: "logo-light.png"
+   
+
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  author: Ambisec
+  # author: ["Me", "You"] # multiple authors
+
+  search:
+    enable: true
+    provider: "local"
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  comments: false
+  #  images: ["images/papermod-cover.png"]
+
+  #  profileMode:
+  #  enabled: false
+  #  title: PaperMod
+  #  imageUrl: "#"
+  #  imageTitle: my image
+  #  # imageWidth: 120
+  #  # imageHeight: 120
+  #  buttons:
+  #    - name: Archives
+  #      url: archives
+  #    - name: Tags
+  #      url: tags
+
+  homeInfoParams:
+    Title: "Bem-vindo ao blog da Ambisec!"
+    Content: >
+      - 🔍 Segurança da informação é essencial no mundo digital. Aqui, exploramos temas como SIEM, XDR, detecção de ameaças e monitoramento de segurança, trazendo conteúdos técnicos e estratégias para fortalecer a defesa do seu ambiente.
+      
+      - 💡 Quer saber como proteger sua empresa contra ataques cibernéticos? Explore nossos artigos e fique por dentro das melhores práticas em cibersegurança!
+      
+      - 📢 Nos acompanhe para conteúdos exclusivos e novidades no mundo da segurança digital! 🚀🔐
+
+  mainSections: ["posts"]
+
+  #socialIcons:
+  #  - name: github
+  #    title: View Source on Github
+  #    url: "https://github.com/adityatelange/hugo-PaperMod"
+  #  - name: Discord
+  #    title: Join discord community
+  #    url: "https://discord.gg/ahpmTvhVmp"
+  #  - name: X
+  #    title: Share PaperMod on X/Twitter
+  #    url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
+  #  - name: KoFi
+  #    title: Buy me a Ko-Fi :)
+  #    url: "https://ko-fi.com/adityatelange"
+
+  #  editPost:
+  #  URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #  Text: "Sugerir alterações" # edit text
+  #  appendFilePath: true # to append file path to Edit link
+
+  # label:
+  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  # text: "Home"
+  # icon: icon.png
+  # iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: true
+    favicon: "http://localhost:1313/favicon.ico"
+    # customCSS:
+#- "css/custom.css"
+    #    customJS:
+#- "js/theme.js"
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+#services:
+  #  instagram:
+    #  disableInlineCSS: true
+  #x:
+    #  disableInlineCSS: true
