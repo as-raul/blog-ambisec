@@ -130,7 +130,7 @@ params:
     disableHLJS: true
     favicon: "http://localhost:1313/favicon.ico"
     # customCSS:
-#- "css/custom.css"
+     # - ""
     #    customJS:
 #- "js/theme.js"
   #     favicon: "<link / abs url>"
