@@ -129,8 +129,9 @@ params:
   assets:
     disableHLJS: true
     favicon: "http://localhost:1313/favicon.ico"
-    # customCSS:
-     # - ""
+    disableFingerprinting: true
+    customCSS:
+      - "assets/css/style.css"
     #    customJS:
 #- "js/theme.js"
   #     favicon: "<link / abs url>"
