@@ -1,7 +1,7 @@
 ---
 title: "O que é um XDR? Entenda a Evolução da Detecção e Resposta a Ameaças"
 date: 2025-02-27T11:30:03+00:00
-tags: ["XDR", "Extended Detection and Response", "Detecçãoo e Resposta a Ameaças", "Threat Detection", "Segurança da Informação", "Cibersegurança", "Cybersecurity", "Threat Intelligence", "Threat Hunting", "Endpoint Security", "Network Security", "SOC", "Wazuh", "Blue Team"]
+tags: ["XDR", "Extended Detection and Response", "Detecção e Resposta a Ameaças", "Threat Detection", "Segurança da Informação", "Cibersegurança", "Cybersecurity", "Threat Intelligence", "Threat Hunting", "Endpoint Security", "Network Security", "SOC", "Wazuh", "Blue Team"]
 author: "Raul Scheidemantel"
 # author: ["Me", "You"] # multiple authors
 showToc: true
