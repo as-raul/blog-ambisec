@@ -27,7 +27,7 @@ minify:
 
 menus:
   main:
-  -name: inicio
+  - name: inicio
     pageRef: /
     weight: 1
   - name: artigos
@@ -47,6 +47,8 @@ outputs:
     - JSON
 
 params:
+  hideFooter: true 
+
   label:
     text: " "
     icon: "logo-light.png"

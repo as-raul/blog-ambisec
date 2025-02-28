@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Monitoramento De Métricas on Blog Ambisec</title>
+    <link>http://localhost:1313/tags/monitoramento-de-m%C3%A9tricas/</link>
+    <description>Recent content in Monitoramento De Métricas on Blog Ambisec</description>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 27 Feb 2025 11:30:03 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/monitoramento-de-m%C3%A9tricas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoramento de Métricas: Acompanhe a Saúde da sua Infraestrutura de TI</title>
+      <link>http://localhost:1313/posts/o-que-e-monitoramento-de-metricas/</link>
+      <pubDate>Thu, 27 Feb 2025 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/o-que-e-monitoramento-de-metricas/</guid>
+      <description>Neste artigo, exploramos a importância do monitoramento de métricas na TI, destacando como o Zabbix pode ajudar empresas a prevenir falhas, otimizar recursos e garantir a continuidade dos serviços. Saiba como essa ferramenta pode transformar sua gestão de infraestrutura.</description>
+    </item>
+  </channel>
+</rss>
