@@ -27,6 +27,9 @@ minify:
 
 menus:
   main:
+  -name: inicio
+    pageRef: /
+    weight: 1
   - name: artigos
     pageRef: /archives/
     weight: 10
